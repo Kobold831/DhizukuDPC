@@ -10,8 +10,8 @@ android {
         applicationId "com.afwsamples.dhizukudpc"
         minSdk 21
         targetSdk 34
-        versionCode 1
-        versionName "903.1.0"
+        versionCode 3
+        versionName "903.2.0"
         proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
     }
 
