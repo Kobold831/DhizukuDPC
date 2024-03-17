@@ -9,8 +9,7 @@ android {
     defaultConfig {
         applicationId "com.afwsamples.dhizukudpc"
         minSdk 21
-        //noinspection ExpiredTargetSdkVersion
-        targetSdk 23
+        targetSdk 34
         versionCode 1
         versionName "903.1.0"
         proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -18,13 +17,13 @@ android {
 
     buildTypes {
         debug {
-            minifyEnabled false
-            shrinkResources false
+            minifyEnabled true
+            shrinkResources true
         }
 
         release {
-            minifyEnabled false
-            shrinkResources false
+            minifyEnabled true
+            shrinkResources true
         }
     }
 
@@ -75,4 +74,5 @@ dependencies {
 
     //HiddenApiBypass
     implementation "org.lsposed.hiddenapibypass:hiddenapibypass:4.3"
+    implementation "me.weishu:free_reflection:3.0.1"
 }
