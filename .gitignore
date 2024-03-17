@@ -1,6 +1,13 @@
-bazel-android-testdpc
-bazel-bin
-bazel-out
-bazel-testlogs
-**/*.iml
-.idea
+# Gradle
+/.gradle/
+# Android SDK
+/local.properties
+# IntelliJ
+/.idea/
+# Gradle Build
+/app/build/
+# Android Studio Signing APK
+/app/debug/
+/app/release/
+/debug/
+/release/

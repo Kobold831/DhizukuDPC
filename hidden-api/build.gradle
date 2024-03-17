@@ -1,0 +1,18 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    namespace 'com.rosan.hidden_api'
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 21
+    }
+}
+
+dependencies {
+
+    //AndroidX
+    implementation "androidx.annotation:annotation:1.7.1"
+}
