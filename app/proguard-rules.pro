@@ -1,3 +1,0 @@
--dontwarn com.google.android.**
--keep class android.app.admin.IDevicePolicyManager
--keep class android.app.admin.DevicePolicyManager
